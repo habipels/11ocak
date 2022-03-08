@@ -1,0 +1,72 @@
+manage.py = siteyi calıştıracak ve site içi ayarlar 
+urls.py = site url ayarları ve site içi yonlendirme
+settings.py = site içindeki uygulamaları çalıştırır 
+----------------------------------------------------------
+#komut
+------
+runserver : projeyi server olarak çalıştırıyor
+makemigrations : veri tabanı kayıtlarını oluşturuyor tabi bu kodları sınıflardan çekiyor
+migrate : veri tabanı oluşturur
+
+-------------------------------------------------------------------
+dosyaları 
+views.py : html dosyarını bir fonksiyon aracılığı ile gösterme 
+models.py : veri tabanlarının tanımlandığı ve oluşturulduğu yerdir 
+admin.py : django admin panelini özelleştirdiğimiz yer 
+__init__ : dosyamızın python dosyası olduğunu öğretti 
+
+----------------------------------------------------------------
+extends = miras Alma içindeki tüm kodları kullanmammızı sağlıyordu
+include = belirli bir kod parçasını belirli bir yerlere eklememizi sağiliyordu 
+block = tanımlanan yerlerede kod parçası eklemeyi sağlar 
+
+
+------------------------------------------------------------------------------
+sözlük  > dinamik url > for döngüsü > if else elif 
+
+#python
+print
+if else elif
+döngü:while for
+object  = class
+fonksiyonlar
+liste , sözlük ,küme
+modüller
+random 
+sql db 
+#--------Django 
+proje oluşturma 
+proje açma çalıştırma ,app ekleme , ayağa kaldırma
+temp parçalama 
+url ilişkisi dinamik
+views
+models
+static , dinamik img
+sayfalama 
+login ,register , logout 
+form1 , form 2 , form3
+terminal kullanımı 
+tablo bağlama 
+admin sayfası 
+veri tabanı ilişkisi 
+settings 
+ckeditor
+
+#Umut
+yetki.object.filter(user_id = request.user)
+#film sitesi /aksiyon/1/spiderman5/
+models  > kategorin başlık 
+models  >film tablosu  => film adı , film_kategorisi , film açıklaması ,film görsel , 
+film video , film frangman ,film çıkış tarihi ,film link , film yıldızı 
+models = yetkilendirme 
+views => anasayfa , login ,register , film ekleme kısmı ,film özel sayfası , hakkımızda iletişim
+
+#Feride
+#nakliye sitesi   1 ton  1 km 100  ankaradan istanbula ev taşınacak max min 1000 5000
+#iş veren ve iş arıyan 
+models user profile = nakliyeciler,adi soyadı  ,lokasyon çalışma ücret aralığı,ruhsat bilgis , telefon numarası,araç tipi ,email|
+iş verenler tel numarası , adı soyadı ,admin
+models :ilan =işveren  lokasyon 1 lokasyon 2 taşınacak yük ve max min ücret 
+teklif : ilan ,teklif veren ,tutar ,
+
+
